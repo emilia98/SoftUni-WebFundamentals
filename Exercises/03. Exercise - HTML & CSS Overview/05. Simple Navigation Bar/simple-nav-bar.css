@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    background-color: #84B3AD;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #135E3E;
+    padding: 5px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
